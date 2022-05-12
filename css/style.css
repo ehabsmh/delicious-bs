@@ -11,23 +11,72 @@ h6 {
 body {
   font-family: "Poppins", sans-serif;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
+  color: #ffb03b;
 }
+
+a:hover {
+  color: #ffc56e;
+  text-decoration: none;
+}
+
 .main-title {
   width: 40%;
   margin-inline: auto;
 }
+
 @media screen and (max-width: 767px) {
   .main-title {
     width: 80%;
     margin-inline: auto;
   }
 }
+
 /* END MAIN COMPONENTS */
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #5f5950;
+}
+
+.section-title h2 span {
+  color: #ffb03b;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 300;
+}
+
+@media (min-width: 1024px) {
+  .section-title p {
+    width: 50%;
+  }
+}
 
 /* START EVENTS SECTION */
 .events {
@@ -37,15 +86,18 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .events .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   padding-block: 4rem;
 }
+
 .events .events-text span {
   position: relative;
 }
+
 .events .events-text span::before {
   position: absolute;
   content: "";
@@ -59,6 +111,7 @@ a {
   position: static;
   margin-top: 1rem;
 }
+
 .events .carousel-indicators [data-bs-target] {
   width: 12px;
   height: 12px;
@@ -66,10 +119,12 @@ a {
   border-radius: 50%;
   background-color: aliceblue;
 }
+
 .events .carousel-indicators .active {
   opacity: 1;
   background-color: #ffc107;
 }
+
 /* END EVENTS SECTION */
 
 /* START CHEFS SECTION */
@@ -80,12 +135,14 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .chefs .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.7);
   padding-block: 4rem;
 }
+
 .chefs .chef-info {
   width: 90%;
   margin: auto;
@@ -96,6 +153,7 @@ a {
   padding: 1rem 0;
   text-align: center;
 }
+
 .chefs .chef-info h4 {
   position: relative;
   font-weight: 500;
@@ -105,6 +163,7 @@ a {
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
 }
+
 .chefs .chef-info h4::before {
   position: absolute;
   height: 1px;
@@ -115,18 +174,21 @@ a {
   transform: translateX(-50%);
   background-color: #ffc107;
 }
+
 .chefs .chef-info p {
   font-style: italic;
   font-size: 13px;
 }
+
 .chefs .chef-info a svg {
   transition: 0.3s;
 }
+
 .chefs .chef-info a:hover svg {
   color: #ffc107;
 }
-.chefs .chef-media {
-}
+
+.chefs .chef-media {}
 
 .chef-carousel {
   background-image: url(../imgs/testimonials-bg.jpg);
@@ -135,18 +197,21 @@ a {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .chef-carousel .layout {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   padding-block: 4rem;
 }
+
 /* END CHEFS SECTION */
 
 /* START TESTIMONIALS SECTION */
 .testi-img {
   padding: 0.5rem 0;
 }
+
 .testi-img img {
   width: 100px;
   height: 100px;
@@ -158,18 +223,22 @@ a {
 .testi-title h4 {
   font-family: "Poppins", sans-serif;
 }
+
 .testi-title h3 {
   font-size: 20px;
   font-weight: bold;
 }
+
 .testi-title h4 {
   font-size: 14px;
   color: #ddd;
 }
+
 .chef-carousel .carousel-indicators {
   position: static;
   margin-top: 1rem;
 }
+
 .chef-carousel .carousel-indicators [data-bs-target] {
   width: 12px;
   height: 12px;
@@ -177,9 +246,160 @@ a {
   border-radius: 50%;
   background-color: aliceblue;
 }
+
 .chef-carousel .carousel-indicators .active {
   opacity: 1;
   background-color: #ffc107;
 }
 
 /* END TESTIMONIALS SECTION */
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+#contact .info-wrap {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+#contact .info {
+  color: #ffc107;
+  font-size: 1.25rem;
+
+}
+
+#contact .info:hover i {
+  background: #ffb03b;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+
+}
+
+#contact .info i {
+  background-color: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+#contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #433f39;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #7a7368;
+}
+
+
+#contact .email-form {
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  background: #fff;
+}
+
+#contact .email-form .form-group {
+  padding-bottom: 8px;
+}
+
+
+#contact .email-form input,
+#contact .email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#contact .email-form input {
+  height: 44px;
+}
+
+#contact .email-form textarea {
+  padding: 10px 12px;
+}
+
+#contact .email-form button {
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#contact .email-form button:hover {
+  background: #ffa012;
+}
+
+/*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+#footer {
+  background: #35322d;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffb03b;
+  position: relative;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #46423b;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #ffb03b;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
