@@ -1,0 +1,73 @@
+/* start section heading */
+.section-heading {
+  text-align: center;
+  color: #5f5950;
+  width: 50%;
+  margin: 30px auto 20px;
+  padding: 10px 0;
+}
+.section-heading h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 32px;
+  font-weight: 700;
+}
+.section-heading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.section-heading h2 span {
+  color: #ffb03b;
+}
+/* end section heading */
+/* start booking table seciotn */
+.booking {
+  padding: 50px 0;
+}
+.booking .section-heading span.book {
+  color: #000;
+  background-color: #fd9e10;
+}
+.booking form {
+  padding: 30px;
+  box-shadow: 0 0 8px #cfc3b2;
+}
+.booking form .btn-container {
+  text-align: center;
+}
+.booking form .btn-container .btn {
+  background-color: #ffb03b;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+.booking form .btn-container .btn:hover {
+  background-color: #be770b;
+}
+.booking form .btn-container .btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+.booking form textarea {
+  resize: none;
+}
+/* end booking table seciotn */
+/* start gallery section */
+.gallery {
+  padding: 50px 0;
+}
+.gallery .row .col-md-6 {
+  overflow: hidden;
+}
+.gallery .row .gallery-item {
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery .row .gallery-item img {
+  transition: transform 0.3s ease-in-out;
+  display: block;
+}
+.gallery .row .gallery-item:hover img {
+  transform: scale(1.1);
+}
+/* end gallery section */
