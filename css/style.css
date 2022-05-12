@@ -1,0 +1,185 @@
+/* START MAIN COMPONENTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Satisfy", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.main-title {
+  width: 40%;
+  margin-inline: auto;
+}
+@media screen and (max-width: 767px) {
+  .main-title {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+/* END MAIN COMPONENTS */
+
+/* START EVENTS SECTION */
+.events {
+  background-image: url(../imgs/events-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.events .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-block: 4rem;
+}
+.events .events-text span {
+  position: relative;
+}
+.events .events-text span::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #ffc107;
+  bottom: 0;
+}
+
+.events .carousel-indicators {
+  position: static;
+  margin-top: 1rem;
+}
+.events .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.events .carousel-indicators .active {
+  opacity: 1;
+  background-color: #ffc107;
+}
+/* END EVENTS SECTION */
+
+/* START CHEFS SECTION */
+.chefs {
+  background-image: url(../imgs/chefs-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.chefs .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-block: 4rem;
+}
+.chefs .chef-info {
+  width: 90%;
+  margin: auto;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+.chefs .chef-info h4 {
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #6c665c;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.chefs .chef-info h4::before {
+  position: absolute;
+  height: 1px;
+  width: 60px;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffc107;
+}
+.chefs .chef-info p {
+  font-style: italic;
+  font-size: 13px;
+}
+.chefs .chef-info a svg {
+  transition: 0.3s;
+}
+.chefs .chef-info a:hover svg {
+  color: #ffc107;
+}
+.chefs .chef-media {
+}
+
+.chef-carousel {
+  background-image: url(../imgs/testimonials-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.chef-carousel .layout {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-block: 4rem;
+}
+/* END CHEFS SECTION */
+
+/* START TESTIMONIALS SECTION */
+.testi-img {
+  padding: 0.5rem 0;
+}
+.testi-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 9px #f0f8ff1f;
+}
+
+.testi-title h3,
+.testi-title h4 {
+  font-family: "Poppins", sans-serif;
+}
+.testi-title h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.testi-title h4 {
+  font-size: 14px;
+  color: #ddd;
+}
+.chef-carousel .carousel-indicators {
+  position: static;
+  margin-top: 1rem;
+}
+.chef-carousel .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.chef-carousel .carousel-indicators .active {
+  opacity: 1;
+  background-color: #ffc107;
+}
+
+/* END TESTIMONIALS SECTION */

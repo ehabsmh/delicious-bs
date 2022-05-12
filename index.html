@@ -4,12 +4,493 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Delicious</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- START EVENTS SECTION -->
+    <section class="events" id="events">
+      <div class="overlay">
+        <div class="container">
+          <h2 class="text-center text-white mb-4">
+            Organize Your <span class="text-warning">Events</span> in our
+            Restaurant
+          </h2>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-6 mb-sm-3 mb-lg-0">
+                    <div class="events-img">
+                      <img
+                        src="imgs/event-birthday.jpg"
+                        class="w-100"
+                        alt="event birthday"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="events-text text-white">
+                      <h3 class="text-warning">Birthday Parties</h3>
+                      <span class="h3 fw-bold">189$</span>
+                      <p class="fst-italic mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <ul class="p-0">
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                      </ul>
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="events-img">
+                      <img
+                        src="imgs/event-custom.jpg"
+                        class="w-100"
+                        alt="event birthday"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="events-text text-white">
+                      <h3 class="text-warning">Custom Parties</h3>
+                      <span class="h3 fw-bold">115$</span>
+                      <p class="fst-italic mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <ul class="p-0">
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                      </ul>
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="events-img">
+                      <img
+                        src="imgs/event-private.jpg"
+                        class="w-100"
+                        alt="event birthday"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="events-text text-white">
+                      <h3 class="text-warning">Private Parties</h3>
+                      <span class="h3 fw-bold">300$</span>
+                      <p class="fst-italic mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <ul class="p-0">
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                      </ul>
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END EVENTS SECTION -->
+
+    <!-- START CHEFS SECTION -->
+    <section class="chefs mt-5" id="chefs">
+      <div class="overlay py-5">
+        <div class="main-title text-center">
+          <h2 class="text-muted">
+            Our Proffesional <span class="text-warning">Chefs</span>
+          </h2>
+          <p class="text-muted">
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row g-sm-5 g-lg-4 py-3">
+            <div class="col-md-6 col-lg-4">
+              <div class="chef-img position-relative py-sm-4 py-lg-0">
+                <img src="imgs/chefs-1.jpg" class="w-100" alt="" />
+                <div class="chef-info bg-white">
+                  <h4 class="text-muted">Walter White</h4>
+                  <p class="text-muted">Master Chef</p>
+                  <div class="chef-media text-muted">
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-facebook-f pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-twitter pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-instagram pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-linkedin pe-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="chef-img position-relative py-sm-4 py-lg-0">
+                <img src="imgs/chefs-2.jpg" class="w-100" alt="" />
+                <div class="chef-info bg-white">
+                  <h4 class="text-muted">Walter White</h4>
+                  <p class="text-muted">Master Chef</p>
+                  <div class="chef-media text-muted">
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-facebook-f pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-twitter pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-instagram pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-linkedin pe-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="chef-img position-relative py-sm-4 py-lg-0">
+                <img src="imgs/chefs-3.jpg" class="w-100" alt="" />
+                <div class="chef-info bg-white">
+                  <h4 class="text-muted">Walter White</h4>
+                  <p class="text-muted">Master Chef</p>
+                  <div class="chef-media text-muted">
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-facebook-f pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-twitter pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-instagram pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-linkedin pe-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CHEFS SECTION -->
+    <!-- START TESTIMONIALS SECTION -->
+    <section class="chef-carousel">
+      <div class="layout">
+        <div class="container">
+          <div
+            id="carouselExampleIndicators-two"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-1.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo & Founder</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-2.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Sara Wilson</h3>
+                  <h4>Designer</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-3.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Jena Carlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-4.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-5.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Abdelrahman Abd Elaal</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END TESTIMONIALS SECTION -->
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
