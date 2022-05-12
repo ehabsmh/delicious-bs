@@ -116,12 +116,10 @@ a:hover {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-}
 
 .section-bg {
   background-color: white;
+  padding: 60px 0;
 }
 
 .section-title {
@@ -261,7 +259,6 @@ section {
   color: #ffc107;
 }
 
-
 .chef-carousel {
   background-image: url(../imgs/testimonials-bg.jpg);
   background-position: center center;
@@ -326,7 +323,6 @@ section {
 
 /* END TESTIMONIALS SECTION */
 
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -339,7 +335,6 @@ section {
 #contact .info {
   color: #ffc107;
   font-size: 1.25rem;
-
 }
 
 #contact .info:hover i {
@@ -347,7 +342,6 @@ section {
   color: #fff;
   width: 44px;
   height: 44px;
-
 }
 
 #contact .info i {
@@ -358,7 +352,6 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-
 
 #contact .info h4 {
   padding: 0 0 0 60px;
@@ -376,7 +369,6 @@ section {
   color: #7a7368;
 }
 
-
 #contact .email-form {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -387,7 +379,6 @@ section {
 #contact .email-form .form-group {
   padding-bottom: 8px;
 }
-
 
 #contact .email-form input,
 #contact .email-form textarea {

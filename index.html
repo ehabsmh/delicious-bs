@@ -1,742 +1,763 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Delicious</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <!-- START EVENTS SECTION -->
-  <section class="events" id="events">
-    <div class="overlay">
-      <div class="container">
-        <h2 class="text-center text-white mb-4">
-          Organize Your <span class="text-warning">Events</span> in our
-          Restaurant
-        </h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-lg-6 mb-sm-3 mb-lg-0">
-                  <div class="events-img">
-                    <img src="imgs/event-birthday.jpg" class="w-100" alt="event birthday" />
+  <body>
+    <!-- START EVENTS SECTION -->
+    <section class="events" id="events">
+      <div class="overlay">
+        <div class="container">
+          <h2 class="text-center text-white mb-4">
+            Organize Your <span class="text-warning">Events</span> in our
+            Restaurant
+          </h2>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-6 mb-sm-3 mb-lg-0">
+                    <div class="events-img">
+                      <img
+                        src="imgs/event-birthday.jpg"
+                        class="w-100"
+                        alt="event birthday"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="events-text text-white">
+                      <h3 class="text-warning">Birthday Parties</h3>
+                      <span class="h3 fw-bold">189$</span>
+                      <p class="fst-italic mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <ul class="p-0">
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                      </ul>
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="events-text text-white">
-                    <h3 class="text-warning">Birthday Parties</h3>
-                    <span class="h3 fw-bold">189$</span>
-                    <p class="fst-italic mt-3">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
-                    </p>
-                    <ul class="p-0">
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="events-img">
+                      <img
+                        src="imgs/event-custom.jpg"
+                        class="w-100"
+                        alt="event birthday"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="events-text text-white">
+                      <h3 class="text-warning">Custom Parties</h3>
+                      <span class="h3 fw-bold">115$</span>
+                      <p class="fst-italic mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <ul class="p-0">
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                      </ul>
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate
-                        velit.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                    </ul>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum dolore eu fugiat nulla pariatur
-                    </p>
+                        velit esse cillum dolore eu fugiat nulla pariatur
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="events-img">
+                      <img
+                        src="imgs/event-private.jpg"
+                        class="w-100"
+                        alt="event birthday"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="events-text text-white">
+                      <h3 class="text-warning">Private Parties</h3>
+                      <span class="h3 fw-bold">300$</span>
+                      <p class="fst-italic mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <ul class="p-0">
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit.
+                        </li>
+                        <li class="py-2">
+                          <i
+                            class="fa-regular fa-circle-check text-warning"
+                          ></i>
+                          Ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat.
+                        </li>
+                      </ul>
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="events-img">
-                    <img src="imgs/event-custom.jpg" class="w-100" alt="event birthday" />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="events-text text-white">
-                    <h3 class="text-warning">Custom Parties</h3>
-                    <span class="h3 fw-bold">115$</span>
-                    <p class="fst-italic mt-3">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
-                    </p>
-                    <ul class="p-0">
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                    </ul>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum dolore eu fugiat nulla pariatur
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="events-img">
-                    <img src="imgs/event-private.jpg" class="w-100" alt="event birthday" />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="events-text text-white">
-                    <h3 class="text-warning">Private Parties</h3>
-                    <span class="h3 fw-bold">300$</span>
-                    <p class="fst-italic mt-3">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
-                    </p>
-                    <ul class="p-0">
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                    </ul>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum dolore eu fugiat nulla pariatur
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- END EVENTS SECTION -->
-  <!-- start booking section  -->
-  <section class="booking">
-    <div class="container">
-      <div class="section-heading">
-        <h2><span class="book">Book</span> a <span>Table</span></h2>
+    </section>
+    <!-- END EVENTS SECTION -->
+    <!-- start booking section  -->
+    <section class="booking">
+      <div class="container">
+        <div class="section-heading">
+          <h2><span class="book">Book</span> a <span>Table</span></h2>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <form class="row gy-3" action="">
+          <div class="col-md-4">
+            <input
+              class="form-control"
+              type="text"
+              name="uname"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              class="form-control"
+              type="text"
+              name="phone"
+              placeholder="Your Phone"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              class="form-control"
+              type="text"
+              name="date"
+              placeholder="Date"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              class="form-control"
+              type="text"
+              name="time"
+              placeholder="Time"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              class="form-control"
+              type="text"
+              name="clients_num"
+              placeholder="# of people"
+            />
+          </div>
+          <div class="col-md-12">
+            <textarea
+              class="form-control"
+              name=""
+              id=""
+              cols="30"
+              rows="3"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="btn-container col-md-12">
+            <span class="btn"><a href="#">Book Now</a></span>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- end booking section  -->
+    <!-- start gallery section -->
+    <section class="gallery">
+      <div class="container-fluid">
+        <div class="section-heading">
+          <h2>Some photos from <span>Our Restaurant</span></h2>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="row g-2">
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-1.jpg" alt="img1" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-2.jpg" alt="img2" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-3.jpg" alt="img3" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-4.jpg" alt="img4" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-5.jpg" alt="img5" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-6.jpg" alt="img6" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-7.jpg" alt="img7" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="gallery-item">
+              <img class="w-100" src="imgs/gallery-8.jpg" alt="img8" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end gallery section -->
+
+    <!-- START CHEFS SECTION -->
+    <section class="chefs mt-5" id="chefs">
+      <div class="overlay py-5">
+        <div class="main-title text-center">
+          <h2 class="text-muted">
+            Our Proffesional <span class="text-warning">Chefs</span>
+          </h2>
+          <p class="text-muted">
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row g-sm-5 g-lg-4 py-3">
+            <div class="col-md-6 col-lg-4">
+              <div class="chef-img position-relative py-sm-4 py-lg-0">
+                <img src="imgs/chefs-1.jpg" class="w-100" alt="" />
+                <div class="chef-info bg-white">
+                  <h4 class="text-muted">Walter White</h4>
+                  <p class="text-muted">Master Chef</p>
+                  <div class="chef-media text-muted">
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-facebook-f pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-twitter pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-instagram pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-linkedin pe-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="chef-img position-relative py-sm-4 py-lg-0">
+                <img src="imgs/chefs-2.jpg" class="w-100" alt="" />
+                <div class="chef-info bg-white">
+                  <h4 class="text-muted">Walter White</h4>
+                  <p class="text-muted">Master Chef</p>
+                  <div class="chef-media text-muted">
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-facebook-f pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-twitter pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-instagram pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-linkedin pe-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="chef-img position-relative py-sm-4 py-lg-0">
+                <img src="imgs/chefs-3.jpg" class="w-100" alt="" />
+                <div class="chef-info bg-white">
+                  <h4 class="text-muted">Walter White</h4>
+                  <p class="text-muted">Master Chef</p>
+                  <div class="chef-media text-muted">
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-facebook-f pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-twitter pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-instagram pe-2"></i>
+                    </a>
+                    <a href="#" class="text-muted">
+                      <i class="fa-brands fa-linkedin pe-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CHEFS SECTION -->
+    <!-- START TESTIMONIALS SECTION -->
+    <section class="chef-carousel">
+      <div class="layout">
+        <div class="container">
+          <div
+            id="carouselExampleIndicators-two"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-1.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo & Founder</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-2.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Sara Wilson</h3>
+                  <h4>Designer</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-3.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Jena Carlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-4.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+              <div class="carousel-item text-white">
+                <div
+                  class="testi-img d-flex justify-content-center align-items-center mb-4"
+                >
+                  <img src="imgs/testimonials-5.jpg" alt="Saul Goodman" />
+                </div>
+                <div class="testi-title text-center">
+                  <h3>Abdelrahman Abd Elaal</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+
+                <div class="testi-rate text-center">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <p class="text-center">
+                  <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
+                  purus consequat sem cure digni ssim donec porttitora entum
+                  suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
+                  eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fa-solid fa-quote-right fa-2x"></i>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators-two"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIALS SECTION -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2><span>Contact</span> Us</h2>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          style="border: 0; width: 100%; height: 350px"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="container mt-5">
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="fa-solid fa-location-dot fa-fw"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street<br />New York, NY 535022</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="fa-regular fa-clock fa-fw"></i>
+              <h4>Open Hours:</h4>
+              <p>Monday-Saturday:<br />11:00 AM - 2300 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="fa-regular fa-envelope fa-fw"></i>
+              <h4>Email:</h4>
+              <p>info@example.com<br />contact@example.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="fa-solid fa-mobile-screen-button fa-fw"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 51<br />+1 5589 22475 14</p>
+            </div>
+          </div>
+        </div>
+
+        <form role="form" class="email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input
+              type="text"
+              class="form-control"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form-group mt-3">
+            <textarea
+              class="form-control"
+              name="message"
+              rows="5"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Delicious</h3>
         <p>
-          Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-          adipisci expedita at voluptas atque vitae autem.
+          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
+          eligendi fuga maxime saepe commodi placeat.
         </p>
-      </div>
-      <form class="row gy-3" action="">
-        <div class="col-md-4">
-          <input class="form-control" type="text" name="uname" placeholder="Your Name" />
+        <div class="social-links">
+          <a href="#" class="twitter"
+            ><i class="fa-brands fa-twitter fa-fw"></i
+          ></a>
+          <a href="#" class="facebook"
+            ><i class="fa-brands fa-facebook-f fa-fw"></i
+          ></a>
+          <a href="#" class="instagram"
+            ><i class="fa-brands fa-instagram fa-fw"></i
+          ></a>
+          <a href="#" class="google-plus"
+            ><i class="fa-brands fa-skype fa-fw"></i
+          ></a>
+          <a href="#" class="linkedin"
+            ><i class="fa-brands fa-linkedin-in fa-fw"></i
+          ></a>
         </div>
-        <div class="col-md-4">
-          <input class="form-control" type="email" name="email" placeholder="Your Email" />
+        <div class="copyright">
+          &copy; Copyright <strong><span>Delicious</span></strong
+          >. All Rights Reserved
         </div>
-        <div class="col-md-4">
-          <input class="form-control" type="text" name="phone" placeholder="Your Phone" />
-        </div>
-        <div class="col-md-4">
-          <input class="form-control" type="text" name="date" placeholder="Date" />
-        </div>
-        <div class="col-md-4">
-          <input class="form-control" type="text" name="time" placeholder="Time" />
-        </div>
-        <div class="col-md-4">
-          <input class="form-control" type="text" name="clients_num" placeholder="# of people" />
-        </div>
-        <div class="col-md-12">
-          <textarea class="form-control" name="" id="" cols="30" rows="3" placeholder="Message"></textarea>
-        </div>
-        <div class="btn-container col-md-12">
-          <span class="btn"><a href="#">Book Now</a></span>
-        </div>
-      </form>
-    </div>
-  </section>
-  <!-- end booking section  -->
-  <!-- start gallery section -->
-  <section class="gallery">
-    <div class="container-fluid">
-      <div class="section-heading">
-        <h2>Some photos from <span>Our Restaurant</span></h2>
-        <p>
-          Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-          adipisci expedita at voluptas atque vitae autem.
-        </p>
-      </div>
-      <div class="row g-2">
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-1.jpg" alt="img1" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-2.jpg" alt="img2" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-3.jpg" alt="img3" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-4.jpg" alt="img4" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-5.jpg" alt="img5" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-6.jpg" alt="img6" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-7.jpg" alt="img7" />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gallery-item">
-            <img class="w-100" src="imgs/gallery-8.jpg" alt="img8" />
-          </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- end gallery section -->
-  <!-- START EVENTS SECTION -->
-  <section class="events" id="events">
-    <div class="overlay">
-      <div class="container">
-        <h2 class="text-center text-white mb-4">
-          Organize Your <span class="text-warning">Events</span> in our
-          Restaurant
-        </h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-lg-6 mb-sm-3 mb-lg-0">
-                  <div class="events-img">
-                    <img src="imgs/event-birthday.jpg" class="w-100" alt="event birthday" />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="events-text text-white">
-                    <h3 class="text-warning">Birthday Parties</h3>
-                    <span class="h3 fw-bold">189$</span>
-                    <p class="fst-italic mt-3">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
-                    </p>
-                    <ul class="p-0">
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit.
-                      </li>
-                      <li class="py-2">
-                        <i class="fa-regular fa-circle-check text-warning"></i>
-                        Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                      </li>
-                    </ul>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum dolore eu fugiat nulla pariatur
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="events-img">
-                  <img src="imgs/event-custom.jpg" class="w-100" alt="event birthday" />
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="events-text text-white">
-                  <h3 class="text-warning">Custom Parties</h3>
-                  <span class="h3 fw-bold">115$</span>
-                  <p class="fst-italic mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul class="p-0">
-                    <li class="py-2">
-                      <i class="fa-regular fa-circle-check text-warning"></i>
-                      Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.
-                    </li>
-                    <li class="py-2">
-                      <i class="fa-regular fa-circle-check text-warning"></i>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit.
-                    </li>
-                    <li class="py-2">
-                      <i class="fa-regular fa-circle-check text-warning"></i>
-                      Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.
-                    </li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="events-img">
-                  <img src="imgs/event-private.jpg" class="w-100" alt="event birthday" />
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="events-text text-white">
-                  <h3 class="text-warning">Private Parties</h3>
-                  <span class="h3 fw-bold">300$</span>
-                  <p class="fst-italic mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul class="p-0">
-                    <li class="py-2">
-                      <i class="fa-regular fa-circle-check text-warning"></i>
-                      Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.
-                    </li>
-                    <li class="py-2">
-                      <i class="fa-regular fa-circle-check text-warning"></i>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit.
-                    </li>
-                    <li class="py-2">
-                      <i class="fa-regular fa-circle-check text-warning"></i>
-                      Ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat.
-                    </li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <!-- END EVENTS SECTION -->
+    </footer>
+    <!-- End Footer -->
 
-  <!-- START CHEFS SECTION -->
-  <section class="chefs mt-5" id="chefs">
-    <div class="overlay py-5">
-      <div class="main-title text-center">
-        <h2 class="text-muted">
-          Our Proffesional <span class="text-warning">Chefs</span>
-        </h2>
-        <p class="text-muted">
-          Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-          adipisci expedita at voluptas atque vitae autem.
-        </p>
-      </div>
-      <div class="container">
-        <div class="row g-sm-5 g-lg-4 py-3">
-          <div class="col-md-6 col-lg-4">
-            <div class="chef-img position-relative py-sm-4 py-lg-0">
-              <img src="imgs/chefs-1.jpg" class="w-100" alt="" />
-              <div class="chef-info bg-white">
-                <h4 class="text-muted">Walter White</h4>
-                <p class="text-muted">Master Chef</p>
-                <div class="chef-media text-muted">
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-facebook-f pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-twitter pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-instagram pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-linkedin pe-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="chef-img position-relative py-sm-4 py-lg-0">
-              <img src="imgs/chefs-2.jpg" class="w-100" alt="" />
-              <div class="chef-info bg-white">
-                <h4 class="text-muted">Walter White</h4>
-                <p class="text-muted">Master Chef</p>
-                <div class="chef-media text-muted">
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-facebook-f pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-twitter pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-instagram pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-linkedin pe-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="chef-img position-relative py-sm-4 py-lg-0">
-              <img src="imgs/chefs-3.jpg" class="w-100" alt="" />
-              <div class="chef-info bg-white">
-                <h4 class="text-muted">Walter White</h4>
-                <p class="text-muted">Master Chef</p>
-                <div class="chef-media text-muted">
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-facebook-f pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-twitter pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-instagram pe-2"></i>
-                  </a>
-                  <a href="#" class="text-muted">
-                    <i class="fa-brands fa-linkedin pe-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END CHEFS SECTION -->
-  <!-- START TESTIMONIALS SECTION -->
-  <section class="chef-carousel">
-    <div class="layout">
-      <div class="container">
-        <div id="carouselExampleIndicators-two" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active text-white">
-              <div class="testi-img d-flex justify-content-center align-items-center mb-4">
-                <img src="imgs/testimonials-1.jpg" alt="Saul Goodman" />
-              </div>
-              <div class="testi-title text-center">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo & Founder</h4>
-              </div>
-
-              <div class="testi-rate text-center">
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-              </div>
-              <p class="text-center">
-                <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
-                purus consequat sem cure digni ssim donec porttitora entum
-                suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                eget nibh et. Maecen aliquam, risus at semper.
-                <i class="fa-solid fa-quote-right fa-2x"></i>
-              </p>
-            </div>
-            <div class="carousel-item text-white">
-              <div class="testi-img d-flex justify-content-center align-items-center mb-4">
-                <img src="imgs/testimonials-2.jpg" alt="Saul Goodman" />
-              </div>
-              <div class="testi-title text-center">
-                <h3>Sara Wilson</h3>
-                <h4>Designer</h4>
-              </div>
-
-              <div class="testi-rate text-center">
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-              </div>
-              <p class="text-center">
-                <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
-                purus consequat sem cure digni ssim donec porttitora entum
-                suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                eget nibh et. Maecen aliquam, risus at semper.
-                <i class="fa-solid fa-quote-right fa-2x"></i>
-              </p>
-            </div>
-            <div class="carousel-item text-white">
-              <div class="testi-img d-flex justify-content-center align-items-center mb-4">
-                <img src="imgs/testimonials-3.jpg" alt="Saul Goodman" />
-              </div>
-              <div class="testi-title text-center">
-                <h3>Jena Carlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-
-              <div class="testi-rate text-center">
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-              </div>
-              <p class="text-center">
-                <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
-                purus consequat sem cure digni ssim donec porttitora entum
-                suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                eget nibh et. Maecen aliquam, risus at semper.
-                <i class="fa-solid fa-quote-right fa-2x"></i>
-              </p>
-            </div>
-            <div class="carousel-item text-white">
-              <div class="testi-img d-flex justify-content-center align-items-center mb-4">
-                <img src="imgs/testimonials-4.jpg" alt="Saul Goodman" />
-              </div>
-              <div class="testi-title text-center">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-
-              <div class="testi-rate text-center">
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-              </div>
-              <p class="text-center">
-                <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
-                purus consequat sem cure digni ssim donec porttitora entum
-                suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                eget nibh et. Maecen aliquam, risus at semper.
-                <i class="fa-solid fa-quote-right fa-2x"></i>
-              </p>
-            </div>
-            <div class="carousel-item text-white">
-              <div class="testi-img d-flex justify-content-center align-items-center mb-4">
-                <img src="imgs/testimonials-5.jpg" alt="Saul Goodman" />
-              </div>
-              <div class="testi-title text-center">
-                <h3>Abdelrahman Abd Elaal</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-
-              <div class="testi-rate text-center">
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-              </div>
-              <p class="text-center">
-                <i class="fa-solid fa-quote-left fa-2x"></i> Proin iaculis
-                purus consequat sem cure digni ssim donec porttitora entum
-                suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                eget nibh et. Maecen aliquam, risus at semper.
-                <i class="fa-solid fa-quote-right fa-2x"></i>
-              </p>
-            </div>
-          </div>
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators-two" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators-two" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators-two" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators-two" data-bs-slide-to="3"
-              aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators-two" data-bs-slide-to="4"
-              aria-label="Slide 5"></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END TESTIMONIALS SECTION -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact">
-    <div class="container">
-      <div class="section-title">
-        <h2><span>Contact</span> Us</h2>
-        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-          autem.</p>
-      </div>
-    </div>
-
-    <div class="map">
-      <iframe style="border:0; width: 100%; height: 350px;"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-        frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="container mt-5">
-      <div class="info-wrap">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 info">
-            <i class="fa-solid fa-location-dot fa-fw"></i>
-            <h4>Location:</h4>
-            <p>A108 Adam Street<br>New York, NY 535022</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
-            <i class="fa-regular fa-clock fa-fw"></i>
-            <h4>Open Hours:</h4>
-            <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
-            <i class="fa-regular fa-envelope fa-fw"></i>
-            <h4>Email:</h4>
-            <p>info@example.com<br>contact@example.com</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
-            <i class="fa-solid fa-mobile-screen-button fa-fw"></i>
-            <h4>Call:</h4>
-            <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
-          </div>
-        </div>
-      </div>
-
-      <form role="form" class="email-form">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
-    </div>
-  </section>
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Delicious</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
-      </p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="fa-brands fa-twitter fa-fw"></i></a>
-        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f fa-fw"></i></a>
-        <a href="#" class="instagram"><i class="fa-brands fa-instagram fa-fw"></i></a>
-        <a href="#" class="google-plus"><i class="fa-brands fa-skype fa-fw"></i></a>
-        <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in fa-fw"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
-
-  <script src="js/all.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
