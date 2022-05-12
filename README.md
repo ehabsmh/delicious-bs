@@ -6,7 +6,7 @@ delicious-bs is a website for fine-dinning resturant .
 ## Team members
 
 ```bash
-1. Eham Hussien
+1. Ehab Hussien
 2. Mohamed Ahmed
 3. Abdelrahman Badr
 4. Abdelrahman Abdel3al
