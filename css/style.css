@@ -1,6 +1,47 @@
 :root {
   --mainColor: #ffb03b;
 }
+/* START MAIN COMPONENTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Satisfy", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffb03b;
+}
+
+a:hover {
+  color: #ffc56e;
+  text-decoration: none;
+}
+
+.main-title {
+  width: 40%;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .main-title {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+/* END MAIN COMPONENTS */
 /* start section heading */
 .section-heading {
   text-align: center;
@@ -232,47 +273,6 @@ a {
 }
 
 /* end gallery section */
-/* START MAIN COMPONENTS */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Satisfy", sans-serif;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #ffb03b;
-}
-
-a:hover {
-  color: #ffc56e;
-  text-decoration: none;
-}
-
-.main-title {
-  width: 40%;
-  margin-inline: auto;
-}
-
-@media screen and (max-width: 767px) {
-  .main-title {
-    width: 80%;
-    margin-inline: auto;
-  }
-}
-
-/* END MAIN COMPONENTS */
 
 /*--------------------------------------------------------------
 # Sections General
