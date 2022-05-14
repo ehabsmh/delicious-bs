@@ -507,6 +507,14 @@ a {
     margin: 0px 0 50px;
   }
 }
+@media (max-width: 500px) {
+  .Specials .conter {
+    flex-wrap: wrap;
+  }
+  .Specials .conter > div:first-of-type {
+    margin-bottom: 30px;
+  }
+}
 /* END  CHECK-SPECIALS  S E C T I O N */
 
 /* START EVENTS SECTION */
