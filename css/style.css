@@ -83,7 +83,7 @@ a:hover {
 .section-heading {
   text-align: center;
   color: #5f5950;
-  width: 50%;
+  width: 65%;
   margin: 30px auto 20px;
   padding: 10px 0;
 }
@@ -101,7 +101,11 @@ a:hover {
 .section-heading h2 span {
   color: #ffb03b;
 }
-
+@media screen and (max-width: 769px) {
+  .section-heading {
+    width: 100%;
+  }
+}
 /* END HEADING SECTION  */
 /*  N A V B A R */
 .nav-solution {
@@ -507,12 +511,22 @@ a {
     margin: 0px 0 50px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .Specials .conter {
     flex-wrap: wrap;
   }
   .Specials .conter > div:first-of-type {
     margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+  }
+  .Specials .conter > div:first-of-type button {
+    text-align: center;
+  }
+  .Specials .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    text-align: center;
+    width: 100% !important;
   }
 }
 /* END  CHECK-SPECIALS  S E C T I O N */
